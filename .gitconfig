@@ -1,0 +1,19 @@
+[gui]
+[gui]
+[gui]
+	recentrepo = C:/Users/mwhitten/brgusers/Python/test_repo
+[user]
+	name = mwhit74
+	email = mwhit74@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log
+    type = cat-file -t
+    dump = cat-file -p
